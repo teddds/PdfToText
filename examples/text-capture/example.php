@@ -1,5 +1,6 @@
 <?php
-	include ( '../../PdfToText.phpclass' ) ;
+include '../../PdfToText.php';
+use PdfToText\PdfToText;
 
 	if  ( php_sapi_name ( )  !=  'cli' )
 		echo ( "<pre>" ) ;

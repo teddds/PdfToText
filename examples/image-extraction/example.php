@@ -1,7 +1,9 @@
 <?php
+include '../../PdfToText.php';
+
 	// This example saves all images found in the 'sample.pdf' file, after having put the string
 	// "Hello world" in blue color, using the largest stock font
-	include ( '../../PdfToText.phpclass' ) ;
+use PdfToText\PdfToText;
 
 	function  output ( $message )
 	   {

@@ -1,5 +1,7 @@
 <?php
-	include ( '../../PdfToText.phpclass' ) ;
+include '../../PdfToText.php';
+use PdfToText\PdfToText;
+
 
 	function  output ( $message )
 	   {
